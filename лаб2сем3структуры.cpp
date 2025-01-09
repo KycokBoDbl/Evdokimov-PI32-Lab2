@@ -139,31 +139,31 @@ character character_create()
 	player.level = 1;
 	switch (Class)
 	{
-	case 1:
+	case 0:
 		player.health = 100;
 		player.damage = 4;
 		player.armor = 5;
 		player.speed = 4;
 		break;
-	case 2:
+	case 1:
 		player.health = 80;
 		player.damage = 7;
 		player.armor = 1;
 		player.speed = 7;
 		break;
-	case 3:
+	case 2:
 		player.health = 100;
 		player.damage = 6;
 		player.armor = 3;
 		player.speed = 4;
 		break;
-	case 4:
+	case 3:
 		player.health = 90;
 		player.damage = 3;
 		player.armor = 2;
 		player.speed = 9;
 		break;
-	case 5:
+	case 4:
 		player.health = 110;
 		player.damage = 6;
 		player.armor = 5;
